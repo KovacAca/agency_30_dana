@@ -282,6 +282,9 @@ about
 /*********************
 projects
 *********************/
+#projects {
+  padding-top: 50px;
+}
 #projects .col-md-3 {
   padding: 0 !important;
 }
@@ -314,5 +317,33 @@ projects
   transition: var(--transition);
 }
 #projects i:hover {
+  color: var(--siva);
+}
+/*********************
+people
+*********************/
+#people .card {
+  
+}
+#people img { 
+  width: 80%;
+  border-radius: 50%;
+  margin: -100px auto 0 auto;
+}
+#people .row:nth-child(2) {
+  margin-top: 100px;
+}
+#people hr {
+  background: var(--orange);
+  border: none;
+  height: 1px;
+}
+#people i {
+  color: var(--orange);
+  font-size: 30px;
+  margin: 0 5px;
+  transition: var(--transition);
+}
+#people i:hover {
   color: var(--siva);
 }
