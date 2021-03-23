@@ -350,3 +350,47 @@ people
 /*********************
 pricing
 *********************/
+#pricing .card {
+  border-radius: 0;
+}
+#pricing .card-title {
+  padding: 20px 0 0 0;
+}
+.priceNum {
+  position: relative;
+  background: var(--moka);
+}
+.money {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  font-size: 25px;
+}
+.moneyNum {
+  font-size: 60px;
+}
+.moneyEnd {
+  font-size: 18px;
+}
+#pricing .list-group li:first-child {
+  padding-top: 50px;
+}
+#pricing .list-group-item {
+  font-size: 15px;
+}
+#pricing .list-group {
+  border-radius: 0;
+} 
+#pricing .btn {
+  background: var(--orange);
+  border-radius: 0;
+}
+#pricing .btn:hover {
+  background: var(--siva);
+  color: var(--bela);
+}
+#pricing .action {
+  background: var(--orange);
+}
+
+
