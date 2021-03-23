@@ -350,6 +350,17 @@ people
 /*********************
 skills
 *********************/
+#skills {
+  background-image: linear-gradient(rgba(255, 138, 91, .7), rgba(255, 138, 91, .7)), url(img/progress.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+  padding: 100px 0 100px 0;
+}
+.progress-bar {
+  background: var(--black);
+}
 
 /*********************
 pricing
